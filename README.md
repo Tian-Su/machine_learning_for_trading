@@ -12,3 +12,15 @@ http://quantsoftware.gatech.edu/ML4T_Software_Setup
 # Clone a private repo from command line
 
 git clone https://username:password@github.com/Tian-Su/machine\_learning\_for\_trading.git
+
+# commands to run the test scripts
+
+```
+PYTHONPATH=../:. python testlearner.py Data/Istanbul.csv
+
+PYTHONPATH=../:. python grade_learners.py 
+
+PYTHONPATH=../:. python grade_best4.py
+
+PYTHONPATH=..:. ORDERS_DATA_DIR=. python grade_marketsim.py
+```
