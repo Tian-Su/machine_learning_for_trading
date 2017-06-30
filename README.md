@@ -8,3 +8,7 @@ http://quantsoftware.gatech.edu/CS7646_Summer_2017
 
 Information on cloning this repository and using the autograder on buffet0x servers:
 http://quantsoftware.gatech.edu/ML4T_Software_Setup
+
+# Clone a private repo from command line
+
+git clone https://username:password@github.com/Tian-Su/machine\_learning\_for\_trading.git
